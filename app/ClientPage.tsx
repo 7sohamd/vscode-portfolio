@@ -1071,7 +1071,7 @@ export default function VSCodePortfolio() {
               <div className="h-full flex items-center justify-center text-gray-400">
                 <div className="text-center">
                   <h2 className="text-2xl mb-2">Welcome to Soham Codes</h2>
-                  <p>Open a file from the explorer to get started</p>
+                  <p>Tip: Run "npm run dev" in terminal to preview</p>
                 </div>
               </div>
             )}

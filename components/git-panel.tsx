@@ -12,15 +12,15 @@ export function GitPanel({ onClose }: GitPanelProps) {
   }
 
   const handleCloneRepo = () => {
-    window.open("https://github.com/7sohamd/soham-codes-portfolio", "_blank")
+    window.open("https://github.com/7sohamd/vscode-portfolio", "_blank")
   }
 
   const handleViewOnGitHub = () => {
-    window.open("https://github.com/7sohamd/soham-codes-portfolio", "_blank")
+    window.open("https://github.com/7sohamd/vscode-portfolio", "_blank")
   }
 
   const handlePushToGitHub = () => {
-    window.open("https://github.com/7sohamd/soham-codes-portfolio", "_blank")
+    window.open("https://github.com/7sohamd/vscode-portfolio", "_blank")
   }
 
   return (
