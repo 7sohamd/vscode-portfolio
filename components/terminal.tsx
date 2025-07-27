@@ -188,7 +188,7 @@ export function Terminal({ onClose, onMinimize, onMaximize, isMaximized }: Termi
         }
 
         setTimeout(() => {
-          window.open("https://v0-my-zeta-gules.vercel.app/", "_blank")
+          window.open("https://portfolio-peach-iota-67.vercel.app/", "_blank")
         }, 1000)
       }, 2000)
     } else if (cmd.startsWith("npm install") || cmd === "npm i") {
@@ -390,7 +390,9 @@ export function Terminal({ onClose, onMinimize, onMaximize, isMaximized }: Termi
           <form onSubmit={(e) => handleSubmit(e, activeSessionId)} className="flex items-center">
             <span className="text-green-400 mr-2">$</span>
             <input
-              ref={(el) => (inputRefs.current[activeSessionId] = el)}
+              ref={(el) => {
+                inputRefs.current[activeSessionId] = el;
+              }}
               type="text"
               value={activeSession.input}
               onChange={(e) => handleInputChange(activeSessionId, e.target.value)}

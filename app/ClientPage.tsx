@@ -1005,7 +1005,7 @@ export default function VSCodePortfolio() {
   }
 
   const handleRunClick = () => {
-    window.open("https://v0-my-zeta-gules.vercel.app/", "_blank")
+    window.open("https://portfolio-peach-iota-67.vercel.app/", "_blank")
   }
 
   const activeTabContent = openTabs.find((tab) => tab.path === activeTab)
